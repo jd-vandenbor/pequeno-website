@@ -13,8 +13,8 @@
 
 <body>
 
-<!-- TOP 70% -->
-<div style="position: relative; background-color: black; background-image: linear-gradient(#AAA, #CCC); " class="row">
+<!-- Hero Desktop -->
+<div class="desktop-only" style="position: relative; background-color: black; background-image: linear-gradient(#AAA, #CCC); " class="row">
 	<div class="hero-center">
 		<img class="pequeno-logo" src="Logo5.png" style="height: 200px;">
 		<div class="div2" style="margin-left: 1.5vw">
@@ -23,16 +23,20 @@
 			<h2 class="desktop-only" style="margin-top: 0px">Peace of mind for those you love</h2>
 			<p class="desktop-only" style="float: left; margin-right: 15px"><a style="text-decoration: none;" href="#main"><button class="w3-button w3-border w3-white w3-round-large w3-border-blue">More Info</button></a></p>
 			<p class="desktop-only bottommargin" style="float: left;"><a style="text-decoration: none;" href="https://www.nurturewatch.com/products/pequeno-guardian"><button class="w3-button w3-blue w3-round-large">Buy Now</button></a></p>
-			<div class="mobile-only" style="position: absolute; bottom: 0%; display: block; text-align: center; width: 80%; left: 10%;">
-				<div class="mobile-only" style="position: relative; bottom: 70px; ">
-				<h3 class="mobile-only" style="margin-bottom: 0px">SOS safety device</h3>
-				<p class="mobile-only" style="position: absolute; left: 5px;"><a style="text-decoration: none;" href="#main"><button class="w3-button w3-border w3-white w3-round-large w3-border-blue">More Info</button></a></p>
-				<p class="mobile-only" style="position: absolute; right: 10px;"><a style="text-decoration: none;" href="https://www.nurturewatch.com/products/pequeno-guardian"><button class="w3-button w3-blue w3-round-large">Buy Now</button></a></p>
-				</div>
-			</div>
 		</div>
   	</div>
 </div>
+
+<div class="mobile-only gradient" style="margin: 0%; ">
+		<!-- <img class="" src="PG.png" style="width: 90%; margin: 5%; margin-bottom: 0%"> -->
+		<!-- <h1 style="font-size: 2em; text-align: center; color: rgb(202, 183, 158)">Peque&ntilde;o Guardi&aacute;n</h1> -->
+		<img class="" src="Logo5.png" style="width: 90%; margin: 5%; margin-top: 70px; margin-bottom: 50px">
+		<img class="" src="Pequeno.png" style="width: 36%; margin-left: 32%; margin-right: 32%; margin-bottom: 20px">
+		<div style="padding-bottom: 20px">
+			<p class="" style="text-align: center; "><a style="text-decoration: none;" href="#main"><button class="w3-button w3-blue w3-round-large">More Info</button></a></p>
+		</div>
+</div>
+
 
 <hr>
 
@@ -305,6 +309,10 @@
 </body>
 
 <style>
+
+.gradient {
+	background-image: linear-gradient(#666, #888);
+}
 
 @media only screen and (min-width: 601px) {
   .mobile-only {
